@@ -10,7 +10,7 @@
 }
 
 body{
-    background:linear-gradient(45deg, #C178CD,#613D67) ;
+    background:linear-gradient( 30deg, #C178CD, #613D67) ;
 }
 nav{
     position: fixed;
@@ -45,6 +45,7 @@ nav{
     bottom: 0;
     margin: auto;
     margin-top: 180px;
+
 }
 
 .card-title{
@@ -52,4 +53,9 @@ nav{
     align-items: center;
     text-align: center;
     color: #501254;
+}
+
+.col{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
 }
