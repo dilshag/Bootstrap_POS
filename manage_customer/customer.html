@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CUSTOMER</title>
+    <link rel="stylesheet" href="customer.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">ABC POS</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#"></a>
+                <a class="nav-link" href="../index.html">HOME</a>
+                <a class="nav-link" href="../manage_customer/customer.html">CUSTOMER</a>
+                <a class="nav-link" href="../manage_item/item.html">ITEM</a>
+                <a class="nav-link" href="../manage_orders/order.html">ORDER</a>
+                <a class="nav-link" href="../manage_orders/order_detail.html">ORDER DETAIL</a>
+                <!-- <a class="nav-link disabled" aria-disabled="true">Disabled</a>-->
+            </div>
+            <button type="button" class="btn btn-outline-secondary">SignUp</button>
+        </div>
+    </div>
+</nav>
+
+<section>
+    <h2>MANAGE CUSTOMER</h2>
+    <div class="search-by">
+        <label for="exampleFormControlInput1" class="form-label"></label>
+        <input type="text" class="form-control" id="exampleFormControlInput4" placeholder="search">
+    </div>
+    <div class="selector">
+        <select class="form-select" aria-label="Default select example">
+            <option selected>Search by</option>
+            <option value="1">CustomerID</option>
+            <option value="2">NAME</option>
+            <option value="3">NUMBER</option>
+        </select>
+    </div>
+    <main class="form">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Customer ID</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Customer ID">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Customer Name</label>
+            <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="Customer Name">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Customer Address</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Customer Number</label>
+            <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="Customer Number">
+        </div>
+    </main>
+
+    <main class="buttons-cus">
+        <button type="button" class="btn btn-success">SAVE</button>
+        <button type="button" class="btn btn-primary">UPDATE</button>
+        <button type="button" class="btn btn-danger">DELETE</button>
+        <button type="button" class="btn btn-warning">CLEAR</button>
+    </main>
+
+    <main class="table-cus">
+        <table class="table table-bordered border-primary">
+            <thead>
+                <tr>
+                    <th scope="col">Customer ID</th>
+                    <th scope="col">Customer Name</th>
+                    <th scope="col">Customer Adrress</th>
+                    <th scope="col">Customer Number</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+
+                </tbody>
+        </table>
+    </main>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
