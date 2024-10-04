@@ -1,4 +1,55 @@
-.navbar-nav{
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: -apple-system, sans-serif;
+}
+
+body{
+    background:linear-gradient(45deg, #C178CD,#613D67) ;
+}
+nav{
+    position: fixed;
+
+}
+.navbar-collapse{
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+}
+.navbar-nav>a{
+    /*justify-content: center;
+    align-content: center;*/
+/*    margin-left: 80px;*/
+   /* right: 100px;*/
+
+     margin: 0px 20px;
+    font-weight: 600;
+    z-index: 100;
+}
+
+.btn-outline-secondary{
+    position: absolute;
+    right: 20px;
+}
+.cards-home{
+    width: 50vw;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    margin-top: 180px;
+}
+
+.card-title{
     justify-content: center;
     align-items: center;
+    text-align: center;
+    color: #501254;
 }
